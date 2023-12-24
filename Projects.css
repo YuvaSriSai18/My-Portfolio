@@ -474,9 +474,21 @@ label{
         padding-left: 20px;
     }
     .card-1{
+        height: fit-content;
         margin: 0;
         margin-left: 10px;
         margin-top: 10px;
+        margin-right: 10px;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .card-1 h2{
+        margin: 0;
+        padding: 0;
+    }
+    .card-1 img{
+        width: 250px;
+        height: 100px;
     }
     .project-1{
         width: 330px;
