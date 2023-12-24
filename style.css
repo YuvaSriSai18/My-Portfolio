@@ -432,6 +432,7 @@ label{
         position: absolute;
         left: 80px;
         top: 51%;
+        margin-top: 15px;
     }
     .social-media-mobile img{
         height: 50px;
