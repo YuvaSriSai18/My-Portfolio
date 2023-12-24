@@ -431,7 +431,7 @@ label{
         justify-content: center;
         position: absolute;
         left: 80px;
-        top: 51%;
+        top: 55%;
         margin-top: 15px;
     }
     .social-media-mobile img{
@@ -463,10 +463,10 @@ label{
     .main-container{
         height: fit-content;
         width: 100%;
-        margin: 0px 5px 5px 5px;
         background-color:aliceblue;
         border-radius: 10px;
         padding: 10px;
+        margin: 0px 5px;
     }
     .main-container p{
         text-align: justify;
