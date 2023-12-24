@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Kalam&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="resume.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <body>
+        <div class="head-1">
+            <div style="margin: 10px 0px 5px 50px;">
+                <a href="index.html">Yuva <span style="color: #F03D0D;">Sri Sai</span></a>
+            </div>
+            <span class="material-symbols-rounded" style="font-size: 40px;margin:10px 50px 5px 0px ;" id="openIcon" class="icon" onclick="openDialog()">contact_mail</span>
+        </div>
+    
+        <section class="contact" id="dialogBox">
+            <div class="contact-nav">
+                <h1>Contact</h1> 
+               <div > <span class="material-symbols-rounded" class="closeIcon" onclick="closeDialog()">close</span></div>
+            </div>
+            <div>
+                <p>"Feel free to get in touch with me using the contact form below. I'm excited to discuss potential collaborations, answer any questions you may have, or just have a chat about our shared interests."</p>
+            </div>
+    
+            <div >
+                <h1>Let's Talk</h1>
+    
+                <form action="send_email.php" method="post">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="text">First Name:</label>  
+                            <input type="text"  >
+                        </div>
+                        <div class="input-group">
+                            <label for="text">Last Name:</label>
+                            <input type="text" >
+                        </div>
+                        <div class="input-group">
+                            <label for="email">E mail:</label>   
+                            <input type="text" >
+                        </div>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </div>
+            <br>
+                    <button type="submit" method="post"> Send</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="mobile-nav-bar">
+            <a>Yuva<span style="color: #F03D0D;"> Sri Sai</span></a>
+            <div class="container" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        
+        
+    <div class="image-DP">
+        <img src="nani-3.jpg" alt="Yuva Sri Sai" style="height: 170px;width: 170px;border-radius: 20px;">
+    </div>
+    <div class="nav-bar">
+        <a href="index.html"> <button class="nav-bar-item-1"><span class="material-symbols-rounded" style="font-size: 35px;">home </span> <br>Home </button>  </a>
+        <a href="resume.html"> <button class="nav-bar-item-1"><span class="material-symbols-rounded" style="font-size: 35px;">description </span><br>Resume  </button>  </a>
+        <a href="Skills.html"> <button class="nav-bar-item-1"><span class="material-symbols-rounded" style="font-size: 35px;">monitoring </span> <br>Skills</button>  </a>
+        <a href="Projects.html"> <button class="nav-bar-item-1"><span class="material-symbols-rounded" style="font-size: 35px;">account_tree </span> <br>Projects </button>  </a>
+    </div>
+    <nav class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+        </ul>
+    </nav>
+    
+<br><br><br><br><br>
+
+    <div class="container-1">
+        <div class="side-panel">
+            <h3>Yuva Sri Sai</h3>
+            <p>Web & Application Developer</p>
+            <div class="social-media">
+                <button>
+                    <a href="https://www.instagram.com/yuva__sai_/" target="_blank"> <!--Instagram-->
+                    <img src="instagram.svg" alt="Instagram">
+                    </a>
+                </button>
+
+                <button><!--Linked In-->
+                    <a href="https://www.linkedin.com/in/yuva-sri-sai-405345237/" target="_blank">
+                        <img src="linkedin.svg" alt="Linked In">
+                    </a>
+                </button>
+
+                <button><!--Twitter-->
+                    <a href="https://twitter.com/nanitho00766710" target="_blank">
+                        <img src="twitter - 1.svg" alt="Twitter">
+                    </a>
+                </button>
+
+                <button>
+                    <a href="https://github.com/YuvaSriSai18" target="_blank">
+                        <img src="github.svg" alt="Git Hub">
+                    </a>
+                </button>
+            </div>
+
+            <div class="side-panel-sub-1">
+                <h6>
+                    <span class="material-symbols-rounded">mail</span>  &nbsp;&nbsp;&nbsp;
+                    nanithota18102004@gmail.com
+                </h6>
+
+                <hr>
+
+                <h6>
+                    <span class="material-symbols-rounded">pin_drop</span>  &nbsp;&nbsp;&nbsp;
+                    <h4>Mangalagiri</h4>
+                </h6>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main-container-about">
+                <h1>Resume </h1><p></p>
+            </div>
+            <object data="YUVA SRI SAI.pdf" type="application/pdf">
+                
+            </object>
+            <embed src="YUVA SRI SAI.pdf" type="application/pdf" width="70%" height="70%">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
